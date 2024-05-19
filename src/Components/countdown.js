@@ -4,6 +4,7 @@ import RSN from "./Countdown/RSNL_logo.png";
 import Shoprite from "./Countdown/shoprite.png";
 import Jara from "./Countdown/jara.png";
 import Fresh from "./Countdown/fresh.png";
+import Banner from "./Countdown/banner2.png";
 
 const COUNTDOWN_TARGET = new Date("2024-05-31T23:59:59");
 
@@ -31,9 +32,8 @@ const Countdown = () => {
 
 	return (
 		<div className='countdown'>
-			<img src={RSN} alt="RSN Logo" width={300} height={55} />
-			<h3>Project Phoenix Countdown</h3>
-            <p>Day(s)/Time Left to the new ERP</p>
+		<div className="banner"><img src={Banner} alt="RSN Logo" /></div>
+            <p>Day(s)/Time Left to Go-Live!</p>
 			<div className='content'>
 				{Object.entries(timeLeft).map((el) => {
 					const label = el[0];
