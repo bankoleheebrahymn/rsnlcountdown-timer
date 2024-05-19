@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./Countdown/styles.css";
-import RSN from "./Countdown/RSNL_logo.png";
 import Shoprite from "./Countdown/shoprite.png";
 import Jara from "./Countdown/jara.png";
 import Fresh from "./Countdown/fresh.png";
