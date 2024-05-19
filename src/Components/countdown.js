@@ -32,7 +32,6 @@ const Countdown = () => {
 	return (
 		<div className='countdown'>
 		<div className="banner"><img src={Banner} alt="RSN Logo" /></div>
-            <p>Day(s)/Time Left to Go-Live!</p>
 			<div className='content'>
 				{Object.entries(timeLeft).map((el) => {
 					const label = el[0];
