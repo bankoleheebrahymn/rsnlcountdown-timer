@@ -1,6 +1,13 @@
 .App {
 	text-align: center;
   }
+
+  .countdown {
+	background-image: url(./Roct1.jpg);
+  background-size: cover;
+  height: 110vh;
+  width: 100%;
+  }
   
 
 .countdown .content {
@@ -13,9 +20,11 @@
 }
 .countdown h3 {
 	margin-top: 50px;
-margin-bottom: 20px;
-	font-size: 40px;
+     margin-bottom: 20px;
+	font-size: 50px;
 	font-family: Montserrat;
+	color: aliceblue;
+	font-weight: 700;
 }
 
 .countdown img {
@@ -23,11 +32,11 @@ margin-bottom: 20px;
 }
 
 .countdown p {
-	margin-top: 40px;
-	font-size:25px;
+	margin-top: 20px;
+	font-size:20px;
 	font-weight: 500;
 	font-family: Montserrat;
-	color: #4e4e4e;
+	color: #ffffff;
 }
 .banner{
 	margin-top:-50px;
@@ -128,7 +137,9 @@ margin-bottom: 20px;
 
 .countdown .label {
 	font-size: 20px;
-	font-weight: 100;
-	letter-spacing: 4px;
+	font-weight: 600;
+	letter-spacing: 1px;
 	margin-top: 10px;
+	font-family: montserrat;
+	color: #4e4e4e;
 }

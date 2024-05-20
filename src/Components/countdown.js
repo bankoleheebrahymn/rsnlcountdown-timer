@@ -4,16 +4,18 @@ import Shoprite from "./Countdown/shoprite.png";
 import Jara from "./Countdown/jara.png";
 import Fresh from "./Countdown/fresh.png";
 import Banner from "./Countdown/banner2.png";
+import Rsnl from "./Countdown/rsnl.png";
+import Bg from "./Countdown/Rocket.jpg";
 
 const COUNTDOWN_TARGET = new Date("2024-05-31T23:59:59");
 
 const getTimeLeft = () => {
 	const totalTimeLeft = COUNTDOWN_TARGET - new Date();
-	const days = Math.floor(totalTimeLeft / (1000 * 60 * 60 * 24));
-	const hours = Math.floor((totalTimeLeft / (1000 * 60 * 60)) % 24);
-	const minutes = Math.floor((totalTimeLeft / (1000 * 60)) % 60);
-	const seconds = Math.floor((totalTimeLeft / 1000) % 60);
-	return { days, hours, minutes, seconds };
+	const DAYS = Math.floor(totalTimeLeft / (1000 * 60 * 60 * 24));
+	const HOURS = Math.floor((totalTimeLeft / (1000 * 60 * 60)) % 24);
+	const MINUTES = Math.floor((totalTimeLeft / (1000 * 60)) % 60);
+	const SECONDS = Math.floor((totalTimeLeft / 1000) % 60);
+	return { DAYS, HOURS, MINUTES, SECONDS };
 };
 
 const Countdown = () => {
@@ -31,7 +33,10 @@ const Countdown = () => {
 
 	return (
 		<div className='countdown'>
-		<div className="banner"><img src={Banner} alt="RSN Logo" /></div>
+		{/* <div className="banner"><img src={Banner} alt="RSN Logo" /></div> */}
+        <img img src={Rsnl} alt="Rsnl Logo" width={300} height={60}/>
+		<h3>Project Phoenix Countdown</h3>
+		<p>Our new ERP will be live in:</p>
 			<div className='content'>
 				{Object.entries(timeLeft).map((el) => {
 					const label = el[0];
