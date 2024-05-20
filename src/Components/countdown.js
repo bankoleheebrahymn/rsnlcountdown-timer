@@ -3,9 +3,7 @@ import "./Countdown/styles.css";
 import Shoprite from "./Countdown/shoprite.png";
 import Jara from "./Countdown/jara.png";
 import Fresh from "./Countdown/fresh.png";
-import Banner from "./Countdown/banner2.png";
 import Rsnl from "./Countdown/rsnl.png";
-import Bg from "./Countdown/Rocket.jpg";
 
 const COUNTDOWN_TARGET = new Date("2024-05-31T23:59:59");
 
@@ -33,7 +31,6 @@ const Countdown = () => {
 
 	return (
 		<div className='countdown'>
-		{/* <div className="banner"><img src={Banner} alt="RSN Logo" /></div> */}
         <img img src={Rsnl} alt="Rsnl Logo" width={300} height={60}/>
 		<h3>Project Phoenix Countdown</h3>
 		<p>Our new ERP will be live in:</p>
