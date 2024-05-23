@@ -4,6 +4,7 @@ import Shoprite from "./Countdown/shoprite.png";
 import Jara from "./Countdown/jara.png";
 import Fresh from "./Countdown/fresh.png";
 import Rsnl from "./Countdown/rsnl.png";
+import VideoBg from  "./Countdown/videoBG.mp4";
 
 const COUNTDOWN_TARGET = new Date("2024-05-31T23:59:59");
 
@@ -30,8 +31,12 @@ const Countdown = () => {
 	}, []);
 
 	return (
-		<div className='countdown'>
-        <img img src={Rsnl} alt="Rsnl Logo" width={300} height={60}/>
+		
+			<div className="bgContainer">
+				<div className="overlay"><video src={VideoBg} autoPlay loop muted />
+				</div>
+			<div className='countdown'>
+        <img src={Rsnl} alt="Rsnl Logo" width={300} height={60}/>
 		<h3>Project Phoenix Countdown</h3>
 		<p>Our new ERP will be live in:</p>
 			<div className='content'>
@@ -54,6 +59,8 @@ const Countdown = () => {
 			<div><img src={Fresh} alt="Fresh Logo" width={100} height={30} /></div>
 			</div>
 		</div>
+		</div>
+		
 	);
 };
 
