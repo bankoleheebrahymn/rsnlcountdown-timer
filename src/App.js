@@ -1,5 +1,5 @@
 import Countdown from "./Components/countdown";
-import "./Components/Countdown/styles.css";
+import './index.css';
 
 
 
