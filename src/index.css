@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: montserrat;
+    
   }
   
   body {
+    font-family: Montserrat;
     overflow: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -44,6 +45,15 @@
     margin: auto;
     gap: 12px;
   }
+  @font-face {
+    font-family: Montserrat;
+    src: url(./Components/Countdown/Montserrat-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: Montserrat-Regular;
+    src: url(./Components/Countdown/Montserrat-Regular.ttf);
+  }
   .countdown h3 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -60,8 +70,8 @@
   .countdown p {
     margin-bottom: 20px;
     font-size: 20px;
-    font-weight: 500;
-    font-family: Montserrat;
+    font-weight: 700;
+    font-family: Montserrat-Regular;
     color: #ffffff;
   }
   
@@ -117,6 +127,8 @@
       max-width: 200px;
     }
   }
+
+
   
   @media screen and (min-width: 790px) {
     .countdown .value {
@@ -155,7 +167,7 @@
     font-weight: 600;
     letter-spacing: 1px;
     margin-top: 10px;
-    font-family: montserrat;
+    font-family: Montserrat;
     color: #4e4e4e;
   }
   
