@@ -38,7 +38,7 @@ const Countdown = () => {
 			<div className='countdown'>
         <img src={Rsnl} alt="Rsnl Logo" width={300} height={60}/>
 		<h3>Project Phoenix Countdown</h3>
-		<p>Our new ERP will be live in:</p>
+		<p>Our new ERP will be rolled out in phases. JARA Ikeja will be the first store to go live on June 1st, 2024.</p>
 			<div className='content'>
 				{Object.entries(timeLeft).map((el) => {
 					const label = el[0];
