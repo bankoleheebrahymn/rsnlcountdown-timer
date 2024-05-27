@@ -49,6 +49,11 @@
     font-family: Montserrat;
     src: url(./Components/Countdown/Montserrat-Bold.ttf);
   }
+
+  @font-face {
+    font-family: digital-7;
+    src: url(./Components/Countdown/digital-7.ttf);
+  }
   
   @font-face {
     font-family: Montserrat-Regular;
@@ -106,8 +111,8 @@
   }
   
   .countdown .value {
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 90px;
+    font-weight: 700;
     background-color: #dd4f05;
     color: white;
     display: flex;
@@ -118,6 +123,7 @@
     height: 80px;
     position: relative;
     box-shadow: -2px 0px 5px 1px #232423ad;
+    font-family: digital-7;
   }
   
   @media screen and (min-width: 550px) {
@@ -140,7 +146,7 @@
   
   @media screen and (min-width: 790px) {
     .countdown .value {
-      font-size: 100px;
+      font-size: 130px;
       height: 200px;
       width: 200px;
     }
@@ -150,7 +156,7 @@
     }
   }
   
-  .countdown .value::before {
+  /* .countdown .value::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -158,8 +164,8 @@
     z-index: 2;
     background-color: #313131b0;
     box-shadow: 0px 0px 5px 0px #2e2f2ed6;
-  }
-  .countdown .value::after {
+  } */
+  /* .countdown .value::after {
     content: '';
     position: absolute;
     z-index: 2;
@@ -168,7 +174,7 @@
     height: 20px;
     background-color: #969696;
     box-shadow: inset -1px 1px 5px 1px #0e0e0ead;
-  }
+  } */
   
   .countdown .label {
     font-size: 20px;
