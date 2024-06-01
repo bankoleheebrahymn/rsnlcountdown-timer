@@ -40,7 +40,8 @@ const Countdown = () => {
 				</div>
 			<div className='countdown'>
         <img src={Rsnl} alt="Rsnl Logo" width={300} height={60}/>
-		<h3>Project Phoenix Countdown</h3>
+		{/* <h3>Project Phoenix Countdown</h3> */}
+		<h3>Project Phoenix is Live!</h3>
 		<p>We are pleased to announce the successful transition of the Jara Ikeja Store to the new ERP. The store has been live for: </p>
 		{/* <p>Our new ERP will be rolled out in phases. JARA Ikeja will be the first store to go live on June 1st, 2024.</p> */}
 			<div className='content'>
