@@ -7,11 +7,11 @@ import Rsnl from "./Countdown/rsnl.png";
 import VideoBg from  "./Countdown/videoBG.mp4";
 
 // const COUNTDOWN_TARGET = new Date("2024-06-01T09:59:59");
-const COUNTDOWN_TARGET = new Date("2024-06-01T09:59:59");
+const COUNTDOWN_TARGET = new Date("2024-06-10T09:59:59");
 
 const getTimeLeft = () => {
-	// const totalTimeLeft = COUNTDOWN_TARGET - new Date();
-		const totalTimeLeft = new Date() - COUNTDOWN_TARGET;
+	const totalTimeLeft = COUNTDOWN_TARGET - new Date();
+		// const totalTimeLeft = new Date() - COUNTDOWN_TARGET;
 
 	const DAYS = Math.floor(totalTimeLeft / (1000 * 60 * 60 * 24));
 	const HOURS = Math.floor((totalTimeLeft / (1000 * 60 * 60)) % 24);
@@ -40,10 +40,10 @@ const Countdown = () => {
 				</div>
 			<div className='countdown'>
         <img src={Rsnl} alt="Rsnl Logo" width={300} height={60}/>
-		{/* <h3>Project Phoenix Countdown</h3> */}
-		<h3>Project Phoenix is Live!</h3>
-		<p>We are pleased to announce the successful transition of Jara Ikeja Store to the new ERP. The store has been live for: </p>
-		{/* <p>Our new ERP will be rolled out in phases. JARA Ikeja will be the first store to go live on June 1st, 2024.</p> */}
+		<h3>Project Phoenix Countdown</h3>
+		{/* <h3>Project Phoenix is Live!</h3>
+		<p>We are pleased to announce the successful transition of Jara Ikeja Store to the new ERP. The store has been live for: </p> */}
+		<p>Following the successful go live of Jara Ikeja, we are pleased to announce that Jara Ibadan will be going live on the 10th of June, 2024.</p>
 			<div className='content'>
 				{Object.entries(timeLeft).map((el) => {
 					const label = el[0];
