@@ -6,8 +6,8 @@ import Fresh from "./Countdown/fresh.png";
 import Rsnl from "./Countdown/rsnl.png";
 import VideoBg from  "./Countdown/videoBG.mp4";
 
-const COUNTDOWN_TARGET = new Date("2024-06-11T023:59:59");
-// const COUNTDOWN_TARGET = new Date("2024-06-11T12:59:59");
+const COUNTDOWN_TARGET = new Date("2024-06-11T11:59:59");
+// const COUNTDOWN_TARGET = new Date("2024-06-11T11:59:59");
 
 const getTimeLeft = () => {
 	// const totalTimeLeft = COUNTDOWN_TARGET - new Date();
