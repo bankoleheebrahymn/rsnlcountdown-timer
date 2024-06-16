@@ -42,7 +42,7 @@ const Countdown = () => {
         <img src={Rsnl} alt="Rsnl Logo" width={300} height={60}/>
 		{/* <h3>Project Phoenix Countdown</h3> */}
 		<h3>Project Phoenix is Live!</h3>
-		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan,Jara Ekiti Store to the new ERP. Jara Ekiti has been live for: </p>
+		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Ekiti Store to the new ERP. Jara Ekiti has been live for: </p>
 		{/* <p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo to the new ERP. Next, Jara Ekiti is expected to be live in:</p> */}
 			<div className='content'>
 				{Object.entries(timeLeft).map((el) => {
