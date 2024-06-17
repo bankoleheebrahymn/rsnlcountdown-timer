@@ -6,12 +6,12 @@ import Fresh from "./Countdown/fresh.png";
 import Rsnl from "./Countdown/rsnl.png";
 import VideoBg from  "./Countdown/videoBG.mp4";
 
-const COUNTDOWN_TARGET = new Date("2024-06-16T09:59:59");
-// const COUNTDOWN_TARGET = new Date("2024-06-16T11:59:59");
+// const COUNTDOWN_TARGET = new Date("2024-06-16T09:59:59");
+const COUNTDOWN_TARGET = new Date("2024-06-18T11:59:59");
 
 const getTimeLeft = () => {
-	// const totalTimeLeft = COUNTDOWN_TARGET - new Date();
-		const totalTimeLeft = new Date() - COUNTDOWN_TARGET;
+	const totalTimeLeft = COUNTDOWN_TARGET - new Date();
+		// const totalTimeLeft = new Date() - COUNTDOWN_TARGET;
 
 	const DAYS = Math.floor(totalTimeLeft / (1000 * 60 * 60 * 24));
 	const HOURS = Math.floor((totalTimeLeft / (1000 * 60 * 60)) % 24);
@@ -40,10 +40,10 @@ const Countdown = () => {
 				</div>
 			<div className='countdown'>
         <img src={Rsnl} alt="Rsnl Logo" width={300} height={60}/>
-		{/* <h3>Project Phoenix Countdown</h3> */}
-		<h3>Project Phoenix is Live!</h3>
-		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo, Jara Ekiti Store to the new ERP. Jara Ekiti has been live for: </p>
-		{/* <p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo to the new ERP. Next, Jara Ekiti is expected to be live in:</p> */}
+		<h3>Project Phoenix Countdown</h3>
+		{/* <h3>Project Phoenix is Live!</h3>
+		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo, Jara Ekiti Store to the new ERP. Jara Ekiti has been live for: </p> */}
+		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo, Jara Ekiti to the new ERP. Next, Jara Ugbowo is expected to be live in:</p>
 			<div className='content'>
 				{Object.entries(timeLeft).map((el) => {
 					const label = el[0];
