@@ -43,7 +43,7 @@ const Countdown = () => {
 		<h3>Project Phoenix Countdown</h3>
 		{/* <h3>Project Phoenix is Live!</h3>
 		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo, Jara Ekiti, Jara Ugbowo Stores to the new ERP. <span className='boldy' >Jara Ugbowo has been live for:</span> </p> */}
-		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo, Jara Ekiti, Jara Ugbowo Stores to the new ERP. <span className='boldy' >Next, Jara Sakponda expected to be live in:</span></p>
+		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo, Jara Ekiti, Jara Ugbowo Stores to the new ERP. <span className='boldy' >Next, Jara Sakponda is expected to go live in:</span></p>
 			<div className='content'>
 				{Object.entries(timeLeft).map((el) => {
 					const label = el[0];
