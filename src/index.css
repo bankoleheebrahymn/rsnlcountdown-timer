@@ -73,13 +73,14 @@
     margin-top: 50px;
   }
   
-   .countdown p {
+   .countdown p {git add .
+    
     background-color: rgba(255, 255, 255, 0.746);
     margin: 0px 220px 20px 220px;
     padding: 30px 100px 30px 100px;
     line-height: 30px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     font-family: Montserrat-Regular;
     color: #282828;
