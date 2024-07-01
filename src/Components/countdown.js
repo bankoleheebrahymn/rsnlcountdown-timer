@@ -10,8 +10,8 @@ import VideoBg from  "./Countdown/videoBG.mp4";
 const COUNTDOWN_TARGET = new Date("2024-07-01T15:59:59");
 
 const getTimeLeft = () => {
-	const totalTimeLeft = COUNTDOWN_TARGET - new Date();
-		// const totalTimeLeft = new Date() - COUNTDOWN_TARGET;
+	// const totalTimeLeft = COUNTDOWN_TARGET - new Date();
+		const totalTimeLeft = new Date() - COUNTDOWN_TARGET;
 
 	const DAYS = Math.floor(totalTimeLeft / (1000 * 60 * 60 * 24));
 	const HOURS = Math.floor((totalTimeLeft / (1000 * 60 * 60)) % 24);
@@ -40,11 +40,11 @@ const Countdown = () => {
 				</div>
 			<div className='countdown'>
         <img src={Rsnl} alt="Rsnl Logo" width={300} height={60}/>
-		<h3>Project Phoenix Countdown</h3>
-		{/* <h3>Project Phoenix is Live!</h3>
-		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo, Jara Ekiti, Jara Ugbowo, Jara Sakponba, The Palms Shoprite Stores to the new ERP. <span className='boldy' >The Palms Shoprite has been live for:</span> </p> */}
-		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo, Jara Ekiti, Jara Ugbowo, Jara Sakponba Stores to the new ERP. 
-	     <span className='boldy' > The Palms Shoprite is scheduled to go live in:</span></p>
+		{/* <h3>Project Phoenix Countdown</h3> */}
+		<h3>Project Phoenix is Live!</h3>
+		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo, Jara Ekiti, Jara Ugbowo, Jara Sakponba, The Palms Shoprite Stores to the new ERP. <span className='boldy' >The Palms Shoprite has been live for:</span> </p>
+		{/* <p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo, Jara Ekiti, Jara Ugbowo, Jara Sakponba Stores to the new ERP. 
+	     <span className='boldy' > The Palms Shoprite is scheduled to go live in:</span></p> */}
 			<div className='content'>
 				{Object.entries(timeLeft).map((el) => {
 					const label = el[0];
