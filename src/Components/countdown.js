@@ -7,7 +7,7 @@ import Rsnl from "./Countdown/rsnl.png";
 import VideoBg from  "./Countdown/videoBG.mp4";
 
 // const COUNTDOWN_TARGET = new Date("2024-06-19T09:59:59");
-const COUNTDOWN_TARGET = new Date("2024-07-01T13:59:59");
+const COUNTDOWN_TARGET = new Date("2024-07-01T15:59:59");
 
 const getTimeLeft = () => {
 	const totalTimeLeft = COUNTDOWN_TARGET - new Date();
@@ -42,7 +42,7 @@ const Countdown = () => {
         <img src={Rsnl} alt="Rsnl Logo" width={300} height={60}/>
 		<h3>Project Phoenix Countdown</h3>
 		{/* <h3>Project Phoenix is Live!</h3>
-		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo, Jara Ekiti, Jara Ugbowo, Jara Sakponba Stores to the new ERP. <span className='boldy' >Jara Sakponba has been live for:</span> </p> */}
+		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo, Jara Ekiti, Jara Ugbowo, Jara Sakponba, The Palms Shoprite Stores to the new ERP. <span className='boldy' >The Palms Shoprite has been live for:</span> </p> */}
 		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo, Jara Ekiti, Jara Ugbowo, Jara Sakponba Stores to the new ERP. 
 	     <span className='boldy' > The Palms Shoprite is scheduled to go live in:</span></p>
 			<div className='content'>
