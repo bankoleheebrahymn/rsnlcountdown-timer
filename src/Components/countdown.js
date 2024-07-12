@@ -41,9 +41,9 @@ const Countdown = () => {
         <img src={Rsnl} alt="Rsnl Logo" width={300} height={60}/>
 		<h3>Project Phoenix Countdown</h3>
 		{/* <h3>Project Phoenix is Live!</h3>
-		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo, Jara Ekiti, Jara Ugbowo, Jara Sakponba, The Palms Shoprite Stores to the new ERP. <span className='boldy' >The Palms Shoprite has been live for:</span> </p> */}
+		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo, Jara Ekiti, Jara Ugbowo, Jara Sakponba, The Palms Shoprite, Shoprite Lekki Stores to the new ERP. <span className='boldy' >Shoprite Lekki has been live for:</span> </p> */}
 		<p>We are pleased to announce the successful transition of Jara Ikeja, Jara Ibadan, Jara Oyo, Jara Ekiti, Jara Ugbowo, Jara Sakponba, The Palms Shoprite Stores to the new ERP. 
-	     <span className='boldy' > Shoprite Lekki Mall is scheduled to go live in:</span></p>
+	     <span className='boldy' > Shoprite Lekki is scheduled to go live in:</span></p>
 			<div className='content'>
 				{Object.entries(timeLeft).map((el) => {
 					const label = el[0];
