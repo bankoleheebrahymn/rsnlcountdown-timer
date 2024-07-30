@@ -6,11 +6,11 @@ import Fresh from "./Countdown/fresh.png";
 import Rsnl from "./Countdown/rsnl.png";
 import VideoBg from  "./Countdown/videoBG.mp4";
 
-const COUNTDOWN_TARGET = new Date("2024-07-29T11:29:59");
+const COUNTDOWN_TARGET = new Date("2024-07-31T11:59:59");
 
 const getTimeLeft = () => {
-	// const totalTimeLeft = COUNTDOWN_TARGET - new Date();
-		const totalTimeLeft = new Date() - COUNTDOWN_TARGET;
+	const totalTimeLeft = COUNTDOWN_TARGET - new Date();
+		// const totalTimeLeft = new Date() - COUNTDOWN_TARGET;
 
 	const DAYS = Math.floor(totalTimeLeft / (1000 * 60 * 60 * 24));
 	const HOURS = Math.floor((totalTimeLeft / (1000 * 60 * 60)) % 24);
@@ -39,11 +39,11 @@ const Countdown = () => {
 				</div>
 			<div className='countdown'>
         <img src={Rsnl} alt="Rsnl Logo" width={300} height={60}/>
-		{/* <h3>Project Phoenix Countdown</h3> */}
-		<h3>Project Phoenix is Live!</h3>
-		<p>We are pleased to announce the successful cut over of Jara Stores at Ikeja, Ibadan, Oyo, Ado-Ekiti, Benin City (Ugbowo and Sakponba) and Shoprite Stores at The Palms, Lekki Mall, Circle Mall, Adeniran Ogunsanya, Ikeja City Mall, Festival Mall, Park Lane, and Ota Gateway to the new ERP. <div className='boldy' >Shoprite Ota Gateway has been live for:</div> </p>
-		{/* <p>We are pleased to announce the successful cut over of Jara Stores at Ikeja, Ibadan, Oyo, Ado-Ekiti, Benin City (Ugbowo and Sakponba) and Shoprite Stores at The Palms, Lekki Mall, Circle Mall, Adeniran Ogunsanya, Ikeja City Mall, Festival Mall, Park Lane all in Lagos to the new ERP.
-	     <div className='boldy' > Shoprite Ota Gateway is scheduled to go live in:</div></p> */}
+		<h3>Project Phoenix Countdown</h3>
+		{/* <h3>Project Phoenix is Live!</h3> */}
+		{/* <p>We are pleased to announce the successful cut over of Jara Stores at Ikeja, Ibadan, Oyo, Ado-Ekiti, Benin City (Ugbowo and Sakponba) and Shoprite Stores at The Palms, Lekki Mall, Circle Mall, Adeniran Ogunsanya, Ikeja City Mall, Festival Mall, Park Lane, and Ota Gateway to the new ERP. <div className='boldy' >Shoprite Ota Gateway has been live for:</div> </p> */}
+		<p>We are pleased to announce the successful cut over of Jara Stores at Ikeja, Ibadan, Oyo, Ado-Ekiti, Benin City (Ugbowo and Sakponba) and Shoprite Stores at The Palms, Lekki Mall, Circle Mall, Adeniran Ogunsanya, Ikeja City Mall, Festival Mall, Park Lane, Ota Gateway to the new ERP.
+	     <div className='boldy' > Shoprite Cocoa Mall is scheduled to go live in:</div></p>
 			<div className='content'>
 				{Object.entries(timeLeft).map((el) => {
 					const label = el[0];
