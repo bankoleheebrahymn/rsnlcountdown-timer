@@ -39,8 +39,8 @@ const Countdown = () => {
 				</div>
 			<div className='countdown'>
         <img src={Rsnl} alt="Rsnl Logo" width={300} height={60}/>
-		<h3>Project Phoenix Countdown</h3>
-		{/* <h3>Project Phoenix is Live!</h3> */}
+		{/* <h3>Project Phoenix Countdown</h3> */}
+		<h3>Project Phoenix is Live!</h3>
 		<p>We are pleased to announce the successful cut over of Jara Stores at Ikeja, Ibadan, Oyo, Ado-Ekiti, Benin City (Ugbowo and Sakponba) and Shoprite Stores at The Palms, Lekki Mall, Circle Mall, Adeniran Ogunsanya, Ikeja City Mall, Festival Mall, Park Lane, Ota Gateway, Cocoa Mall, and Ibadan Mall to the new ERP. <div className='boldy' >Shoprite Ibadan Mall has been live for:</div> </p>
 		{/* <p>We are pleased to announce the successful cut over of Jara Stores at Ikeja, Ibadan, Oyo, Ado-Ekiti, Benin City (Ugbowo and Sakponba) and Shoprite Stores at The Palms, Lekki Mall, Circle Mall, Adeniran Ogunsanya, Ikeja City Mall, Festival Mall, Park Lane, Ota Gateway, Cocoa Mall to the new ERP.
 	     <div className='boldy' > Shoprite Ibadan Mall is scheduled to go live in:</div></p> */}
