@@ -44,7 +44,7 @@ const Countdown = () => {
 		{/* <h3>Project Phoenix is Live!</h3> */}
 		{/* <p>We are pleased to announce the successful cut over of Jara Stores at Ikeja, Ibadan, Oyo, Ado-Ekiti, Benin City (Ugbowo and Sakponba) and Shoprite Stores at The Palms, Lekki Mall, Circle Mall, Adeniran Ogunsanya, Ikeja City Mall, Festival Mall, Park Lane, Ota Gateway, Cocoa Mall, Ibadan Mall, Akure Mall, Kwara Mall, Grand Tower, Gateway, Jabilake Mall, and Silverbird Mall to the new ERP. <div className='boldy' >Shoprite Silverbird Mall has been live for:</div> </p> */}
 		<p>We are pleased to announce the successful cut over of Jara Stores at Ikeja, Ibadan, Oyo, Ado-Ekiti, Benin City (Ugbowo and Sakponba) and Shoprite Stores at The Palms, Lekki Mall, Circle Mall, Adeniran Ogunsanya, Ikeja City Mall, Festival Mall, Park Lane, Ota Gateway, Cocoa Mall, Ibadan Mall, Akure Mall, Kwara Mall, Grand Tower Mall, Gateway Apo, and Jabilake Mall to the new ERP.
-	     <div className='boldy' > Shoprite Gateway Mall, Kaduna is scheduled to go live in:</div></p>
+	     <div className='boldy' > Shoprite Galaxy Mall, Kaduna is scheduled to go live in:</div></p>
 			<div className='content'>
 				{Object.entries(timeLeft).map((el) => {
 					const label = el[0];
