@@ -6,7 +6,7 @@ import Fresh from "./Countdown/fresh.png";
 import Rsnl from "./Countdown/rsnl.png";
 import VideoBg from  "./Countdown/videoBG.mp4";
 
-const COUNTDOWN_TARGET = new Date("2024-09-21T09:59:59");
+const COUNTDOWN_TARGET = new Date("2024-09-21T11:59:59");
 
 const getTimeLeft = () => {
 	const totalTimeLeft = COUNTDOWN_TARGET - new Date();
@@ -41,7 +41,7 @@ const Countdown = () => {
         <img src={Rsnl} alt="Rsnl Logo" width={300} height={60}/>
 		<h3>Project Phoenix Countdown</h3>
 		{/* <h3>Project Phoenix is Live!</h3>
-		<p>We are pleased to announce the successful cut over of Jara Stores at Ikeja, Ibadan, Oyo, Ado-Ekiti, Benin City (Ugbowo and Sakponba) and Shoprite Stores at The Palms, Lekki Mall, Circle Mall, Adeniran Ogunsanya, Ikeja City Mall, Festival Mall, Park Lane, Ota Gateway, Cocoa Mall, Ibadan Mall, Akure Mall, Kwara Mall, Grand Tower, Gateway, Jabilake Mall, Silverbird Mall, Galaxy Mall, and Garden City Mall to the new ERP. <div className='boldy' >Shoprite Garden City Mall has been live for:</div> </p> */}
+		<p>We are pleased to announce the successful cut over of Jara Stores at Ikeja, Ibadan, Oyo, Ado-Ekiti, Benin City (Ugbowo and Sakponba) and Shoprite Stores at The Palms, Lekki Mall, Circle Mall, Adeniran Ogunsanya, Ikeja City Mall, Festival Mall, Park Lane, Ota Gateway, Cocoa Mall, Ibadan Mall, Akure Mall, Kwara Mall, Grand Tower, Gateway, Jabilake Mall, Silverbird Mall, Galaxy Mall, and Garden City Mall to the new ERP. <div className='boldy' >Shoprite  Mall has been live for:</div> </p> */}
 		<p>We are pleased to announce the successful cut over of Jara Stores at Ikeja, Ibadan, Oyo, Ado-Ekiti, Benin City (Ugbowo and Sakponba) and Shoprite Stores at The Palms, Lekki Mall, Circle Mall, Adeniran Ogunsanya, Ikeja City Mall, Festival Mall, Park Lane, Ota Gateway, Cocoa Mall, Ibadan Mall, Akure Mall, Kwara Mall, Grand Tower Mall, Gateway Apo, Jabilake Mall, Silverbird Mall, Galaxy Mall, and Garden City Mall to the new ERP.
 	     <div className='boldy' > Shoprite Owerri Mall is scheduled to go live in:</div></p>
 			<div className='content'>
